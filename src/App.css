@@ -1,0 +1,123 @@
+/* Featured Articles Section */
+.featured-section {
+  padding: 100px;
+  text-align: center;
+}
+
+.featured-section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Article Cards */
+.card-group {
+  display: flex;
+  justify-content: center; /* Center-align the cards */
+  flex-wrap: wrap; /* Wrap cards if there are too many */
+  gap: 20px; /* Add space between the cards */
+  padding: 0 20px;
+}
+
+.ui.card {
+  margin: 10px;
+  width: 300px; /* Fixed width for consistent card sizes */
+  text-align: left; /* Align text to the left inside the card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.ui.card img {
+  width: 100%; /* Image takes up full card width */
+  height: 150px; /* Fixed height for images */
+  object-fit: cover; /* Maintain image aspect ratio */
+}
+
+.ui.card .content {
+  padding: 10px;
+  font-size: 14px;
+}
+/* Footer Section */
+.footer {
+  background-color: #004d40; /* Dark teal background */
+  color: white; /* White text for contrast */
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
+  font-size: 14px;
+}
+
+.footer .column {
+  flex: 1; /* Columns take equal width */
+  min-width: 200px; /* Minimum width for smaller screens */
+  margin: 10px;
+}
+
+.footer .column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-transform: uppercase; /* Consistent styling */
+}
+
+.footer .column ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+}
+
+.footer .column ul li {
+  margin: 5px 0;
+}
+
+.footer .social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer .social-icons img {
+  width: 25px;
+  height: 25px;
+}
+
+.footer input[type="email"] {
+  padding: 8px;
+  width: 200px;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer button {
+  padding: 8px 15px;
+  background-color: #007bff; /* Blue subscribe button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer button:hover {
+  background-color: #0056b3;
+}
+
+.footer .bottom-bar {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  border-top: 1px solid white;
+  padding-top: 10px;
+}
+/* Image Section */
+.image-section {
+  text-align: center;
+  margin: 70px 0; /* Add some spacing */
+}
+
+.image-section .promo-image {
+  max-width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
